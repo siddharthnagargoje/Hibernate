@@ -4,7 +4,7 @@
   http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
 
-	<persistence-unit name="vinod">
+	<persistence-unit name="siddharth">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
@@ -12,8 +12,7 @@
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:mysql://localhost:3306/manytomany_bi?createDatabaseIfNotExist=true" />
 			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password"
-				value="root" />
+			<property name="javax.persistence.jdbc.password" value="root" />
 			<property name="hibernate.show_sql" value="true" />
 
 
